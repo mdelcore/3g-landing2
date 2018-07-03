@@ -9,7 +9,7 @@
 	$select=$_POST["select"];
 	
 	// Email Receiver Address
-	$receiver="michael@michaeldelcore.com";
+	$receiver="amann@3ghc.com,jdougherty@3ghc.com";
 	$subject="3G Website Form Submission";
 
 	$message = "
