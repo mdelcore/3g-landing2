@@ -452,15 +452,19 @@ http://www.tooplate.com/view/2098-health
   }
 
   .slider .item-first {
-    background-image: url(../images/bikes.jpg);
+    background-image: url(../images/shelf.jpg);
   }
 
   .slider .item-second {
-    background-image: url(../images/hands.jpg);
+    background-image: url(../images/computer.jpg);
   }
 
   .slider .item-third {
-    background-image: url(../images/wall.jpg);
+    background-image: url(../images/strategy.jpg);
+  }
+
+  .slider .item-fourth {
+    background-image: url(../images/office.jpg);
   }
 
 

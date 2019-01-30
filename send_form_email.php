@@ -1,4 +1,3 @@
-
 <?php 
   if(isset($_POST['email'])){
 	  
@@ -9,9 +8,8 @@
 	$select=$_POST["select"];
 	
 	// Email Receiver Address
-	$receiver="amann@3ghc.com,jdougherty@3ghc.com";
-	$subject="3G Website Form Submission";
-
+	$receiver="tripp@fjgcorp.com, brian@fjgadvertising.com, carson@fjgadvertising.com";
+	$subject="FJG Website Form Submission";
 	$message = "
 	<html>
 	<head>
@@ -44,7 +42,7 @@
 	</tr>
 	<tr>
 	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Message:</td>
-	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".nl2br($comment)."</td>
+	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".nl2br($message)."</td>
 	</tr>
 	</table>
 	</body>
@@ -65,6 +63,5 @@ $headers .= 'From: <'.$from.'>' . "\r\n";
    	 //Fail Message
       echo "The message could not been sent!";
    }
-
 }
 ?>
